@@ -30,6 +30,12 @@ Logg deg inn i microsoft entra (https://entra.microsoft.com) > groups > add
 || comapanyName | Equals | Skuel 1 |
 | And |  department | Equals | 7 trin |
 
+
+### Aktivere team på gruppa
+Logg deg inn i microsoft admin center (https://admin.microsoft.com) > teams and groups > "gruppe" > Legg til teams
+
+**Grunna Roger vaktmester er einaste med lisens blir han lagt inn som eigar av alle team, i ein reel situasjon hadde leiar vert lagt som eigar**
+
 ## NB
 Gjentas for kvar avdeling som skal ha eige område
 

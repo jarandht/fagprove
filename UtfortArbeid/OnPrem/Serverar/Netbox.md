@@ -9,7 +9,7 @@
     sudo chmod 700 -R /data/netbox
 
 Lagt inn configurasjon for netbox:
-https://github.com/jarandht/docker-containers/tree/main/Automation,%20Infra%20and%20networking/netbox
+https://github.com/jarandht/docker-containers/tree/main/Automation,%20Infra%20and%20networking/netbox/full-example
 
 #### Instalere docker
 
@@ -35,13 +35,38 @@ https://github.com/jarandht/docker-containers/tree/main/Automation,%20Infra%20an
     sudo cp /etc/letsencrypt/live/netbox.fagprove.jarand.site/privkey.pem /data/netbox/certs/certkey.pem
 
 
-##### Starte container
+#### Starte container
 
     sudo docker build . -t netbox
 
     **Opprette fyrste brukar**
     docker compose exec netbox /opt/netbox/netbox/manage.py createsuperuser
 
+#### Entra ID inlogging
+
+Entra ID > App registrations > New registration
+* Name: Netbox
+* Accounts in this organization directory only
+* Redurect URI
+    * Web
+    * https://netbox.fagprove.jarand.site/oauth/complete/azuread-oauth2/
+
+Netbox > Certificates and secrets > Client secrets > New client secret
+* Description: Netbox SSO
+* Expires: 12 months
+* Value lagrast i passwordmanager
+
+Entra ID > Enterprice apps > Netbox
+* Properties
+    * Assigment required: yes
+* Users and groups > Add: APP - Netbox
+
+Dessa fyllast ut i configen
+
+Netbox server > /data/netboxx/configuration/configuration.py:
+
+SOCIAL_AUTH_AZUREAD_OAUTH2_KEY='Application ID'
+SOCIAL_AUTH_AZUREAD_OAUTH2_SECRET='Secret value'
 
 ### Resursar
 https://netboxlabs.com/docs/netbox/?focus=community

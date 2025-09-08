@@ -23,6 +23,13 @@ Object > Security profiles > URL Filtering > Add
 * Catoegories
 
     * Site access (på dei ein vil bloke): Block
+        * Det som er blocka:
+            * Porno
+            * Rus
+            * Phising
+            * Hacking
+            * Malware
+            * high risk
 
 ### Aktivere lista i policy
 Policies > Security

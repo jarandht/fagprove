@@ -6,6 +6,14 @@ Ein brukar break-glass-kontoar for å sikre tilgang til tenester i ein krisesitu
 
 ## Korlies
 
+### Inlogging
+
+Logger inn med brukaren og gir middlertidig passord.
+Det lagast eit langt passord som skrivast på ark og lagrast på ein trygg lokasjon
+Det blir og registrert FIDO på brukaren. 
+
+### Konfigurasjon
+
 Logg inn i entra (https://entra.microsoft.com) > Opprett ny brukar og gruppe
 
 * Brukar: GA-BG
@@ -18,3 +26,4 @@ Logg inn på CA-BG og registrer Fido2
 Tildel CA-BG brukaren Global Admin rolla
 
 Denne gruppa leggast so inn i alle exclusions på conditional access
+

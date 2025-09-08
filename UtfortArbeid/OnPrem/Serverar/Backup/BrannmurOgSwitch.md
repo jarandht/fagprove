@@ -22,20 +22,20 @@ Device > Administrators > Add
 
 #### Opprette lagringsområde
 
-    sudo mkdir -p /date/backup/firewall
-    sudo mkdir /date/backup/switch
-    sudo nano /date/backup/backup.sh
-    sudo nano /date/backup/key
-    sudo chown backuper:backuper -R /date/backup
-    sudo chmod 600 -R /date/backup
-    sudo chmod 700 -R /date/backup/backup.sh
+    sudo mkdir -p /data/backup/firewall
+    sudo mkdir /data/backup/switch
+    sudo nano /data/backup/backup.sh
+    sudo nano /data/backup/key
+    sudo chown backuper:backuper -R /data/backup
+    sudo chmod 600 -R /data/backup
+    sudo chmod 700 -R /data/backup/backup.sh
 
 #### Opprette script
 
     #!/bin/bash
 
-    SWITCH_DIR="/date/backup/switch"
-    FW_DIR="/date/backup/firewall"
+    SWITCH_DIR="/data/backup/switch"
+    FW_DIR="/data/backup/firewall"
     FW_API=""
     FW_IP=""
     SWITCHES=("", "", "")
@@ -58,5 +58,5 @@ Device > Administrators > Add
 
     sudo crontab -e -u backuper
 
-    0 * * * * /date/backup/backup.sh
+    0 * * * * /data/backup/backup.sh
 

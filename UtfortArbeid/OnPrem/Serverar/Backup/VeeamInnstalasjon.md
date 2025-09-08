@@ -55,6 +55,25 @@ Backup infrastructure > Managed servers
             * Mask: 255.255.255.0
             * Gateway: 10.101.0.1
 
+**Gjentas for kvar host i clusteret**
+
+Home > Jobs > Backup job > Virtual machene
+* Name: Backup pve-cl01
+* Virtual machnes: Add
+    * pve-cl01 > ok
+* Storage
+    * Backup reposetory: local01
+    * Retention policy: 30 days
+* Schedule
+    * Run the job automaticaly: 22:00 everyday
+
+#### I promox
+ 
+Veeam støttar ikkje qemu versjon 10 endo
+
+i Proxmox > "VM" > Hardware > Machene > Advanced > Version
+* 9.2+pve1
+
 
 ## Resources
 

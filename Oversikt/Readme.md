@@ -32,6 +32,7 @@ Her er det lagt inn alle konfigurasjonar som er gjor i kva systm.
 1. [Oppsett av ny brukar](../UtfortArbeid/Sky/Administasjon/Brukere/NyeBrukarar.md)
 1. [Gi lærar tilgong til å administrere elevar](../UtfortArbeid/Sky/Administasjon/Brukere/LerarTilgong.md)
 1. [Tingongstyring internt hjå IT](../UtfortArbeid/Sky/Administasjon/Brukere/TilgongarInterntPaIT.md)
+1. [Tingongstyring internt hjå IT](../UtfortArbeid/Sky/Administasjon/Brukere/SetteBillingAccount.md)
 
 &nbsp;
 ## Klientmaskin administrasjon ⌨️
@@ -119,6 +120,8 @@ Sjå [feilsøking](../Feilsoking/Intune.md) for feilsøking.
 ### Oversikt
 
 Alle brannmur reglar: [Reglar](BrannmurReglar.md)
+Alle brannmur domenelister: [Lister](BrannmurDomeneLister.md)
+Nettverksoversikt: [Lister](Nettverksoversikt.md)
 
 Sjå [feilsøking](../Feilsoking/Brannmur.md) for feilsøking.
 
@@ -148,7 +151,12 @@ Under er korleis desse policyane er lagd og andre konfigurerte innstilingar i br
 &nbsp;
 ## Serverar 🤖
 
+Nettverksoversikt: [Lister](Nettverksoversikt.md)
+
 ###  Ordliste
+| Ord | Betydning | System | Kvifor i bruk 
+|----|---|---|---|
+| Netbox | Appliksjon for netverksdokumentasjon | Netbox | For å dokumentere netverket og i framtida kunne bruka API for å automatisere oppgåver |
 
 ### Oversikt
 1. [Proxmox (Viritualiseringsplatform)](../UtfortArbeid/OnPrem/Serverar/Proxmox.md)
@@ -159,7 +167,7 @@ Under er korleis desse policyane er lagd og andre konfigurerte innstilingar i br
 &nbsp;
 ## Backup 🧨
 
-###  Ordliste
+Korlies resturere frå backup: [Lister](ResturereBackup.md)
 
 ### Oversikt
 1. [Backup av brannmur og switch](../UtfortArbeid/OnPrem/Serverar/Backup/BrannmurOgSwitch.md)
