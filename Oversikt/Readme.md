@@ -6,7 +6,7 @@ Her er det lagt inn alle konfigurasjonar som er gjor i kva systm.
 
 ## Tillpassing av eigen tennant 🖌️
 
-###  Ordtak og systemer
+###  Ordliste
 | Ord | Betydning | System | Kvifor i bruk 
 |----|---|---|---|
 | Tennant | Eige område i Azure. | Azure | Tenanten er hjertet det er her alle brukarar, grupper, roller og applikasjonar ligg. Når du logger inn i Entra, så er det din tenant du jobbar mot. |
@@ -20,7 +20,7 @@ Her er det lagt inn alle konfigurasjonar som er gjor i kva systm.
 &nbsp;
 ## Brukeradministrasjon 👨
 
-###  Ordtak og systemer
+###  Ordliste
 | Ord | Betydning | System | Kvifor i bruk 
 |----|---|---|---|
 | TAP | Temperary access pass | Entra ID | TAP gir brukeren en sikker og midlertidig måte å autentisere seg på, spesielt ved første gangs pålogging eller ved tap av vanlige metoder. |
@@ -36,7 +36,7 @@ Her er det lagt inn alle konfigurasjonar som er gjor i kva systm.
 &nbsp;
 ## Klientmaskin administrasjon ⌨️
 
-###  Ordtak og systemer
+###  Ordliste
 | Ord | Betydning | System | Kvifor i bruk |
 |----|---|---|---|
 | Windows Hello | Ein måte å logge inn utan passord, med ansiktsgjenkjenning, fingeravtrykk eller PIN. | Windows/Entra | Gjer pålogging sikrare og enklare, sidan ein slepp å hugse og skrive inn passord. |
@@ -78,7 +78,7 @@ Sjå [feilsøking](../Feilsoking/Intune.md) for feilsøking.
 &nbsp;
 ## Sikkerheitstiltak 🔐
 
-###  Ordtak og systemer
+###  Ordliste
 | Ord | Betydning | System | Kvifor i bruk 
 |----|---|---|---|
 | Breakglass | Ein break-glass-konto er ein nødbrukarkonto med full tilgang som brukast berre ved krisesituasjonar. | Entra ID | Break-glass-kontoen finst for å sikre tilgang til tenester dersom vanlege administrative brukarar blir låste ute. Han skal berre brukast i nød, og overvåkast og sikrast spesielt godt.| 
@@ -106,7 +106,7 @@ Sjå [feilsøking](../Feilsoking/Intune.md) for feilsøking.
 
 ## Brannmur 🚫
 
-###  Ordtak og systemer
+###  Ordliste
 | Ord | Betydning | System | Kvifor i bruk 
 |----|---|---|---|
 | Palo alto | Firmaet som lager brannmur | | |
@@ -136,10 +136,10 @@ Under er korleis desse policyane er lagd og andre konfigurerte innstilingar i br
 &nbsp;
 ## Switch 🦺
 
-###  Ordtak og systemer
+###  Ordliste
 | Ord | Betydning | System | Kvifor i bruk 
 |----|---|---|---|
-| VSF | (Virtual Switching Framework) gjer at fleire svitsjar kan oppførast som ein svitsj | Switch | Å bruke kort gjer betaling og identifisering enklare og raskare enn kontantar eller passord. Det gir òg betre tryggleik og oversikt gjennom sporbare transaksjonar. |
+| VSF | (Virtual Switching Framework) gjer at fleire svitsjar kan oppførast som ein svitsj | Switch | Dette forenklar nettverksadministrasjon, aukar redundans og gir betre skalerbarheit. |
 | LAG | (Link Aggregation) er ei løysing som samlar fleire nettverkskablar til éin logisk link. | Switch | LAG gjer at fleire nettverkskablar kan koplast saman for høgare fart og betre tryggleik mot nedetid sidan trafikken kan gå vidare om éin kabel feilar. |
 
 ### Oversikt
@@ -148,7 +148,7 @@ Under er korleis desse policyane er lagd og andre konfigurerte innstilingar i br
 &nbsp;
 ## Serverar 🤖
 
-###  Ordtak og systemer
+###  Ordliste
 
 ### Oversikt
 1. [Proxmox (Viritualiseringsplatform)](../UtfortArbeid/OnPrem/Serverar/Proxmox.md)
@@ -159,7 +159,7 @@ Under er korleis desse policyane er lagd og andre konfigurerte innstilingar i br
 &nbsp;
 ## Backup 🧨
 
-###  Ordtak og systemer
+###  Ordliste
 
 ### Oversikt
 1. [Backup av brannmur og switch](../UtfortArbeid/OnPrem/Serverar/Backup/BrannmurOgSwitch.md)

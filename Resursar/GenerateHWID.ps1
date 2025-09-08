@@ -1,7 +1,8 @@
 ﻿[Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12
-New-Item -Type Directory -Path "C:\HWID"
-Set-Location -Path "C:\HWID"
+Set-Location -Path $PSScriptRoot
 $env:Path += ";C:\Program Files\WindowsPowerShell\Scripts"
 Set-ExecutionPolicy -Scope Process -ExecutionPolicy RemoteSigned
 Install-Script -Name Get-WindowsAutopilotInfo
-Get-WindowsAutopilotInfo -OutputFile AutopilotHWID.csv
+$SerialNumber = (Get-WmiObject -class win32_bios).SerialNumber
+$PCNummer = Read-Host -Prompt "PC Nummer"
+Get-WindowsAutopilotInfo -OutputFile AutopilotHWID-sn$SerialNumber-pc$PCNummer.csv

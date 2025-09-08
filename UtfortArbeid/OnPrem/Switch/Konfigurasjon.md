@@ -1,5 +1,11 @@
 # Switchkonfigurasjon
 
+## Kvifor
+* LACP/LAG
+    * LAG gjer at fleire nettverkskablar kan koplast saman for høgare fart og betre tryggleik mot nedetid sidan trafikken kan gå vidare om éin kabel feilar.
+
+## Korleis
+
 #### Sette vlan 
 I konsolet:
 * configure terminal
