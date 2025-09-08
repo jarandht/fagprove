@@ -1,7 +1,7 @@
 # Innrullere enhet
 &nbsp;
-## Kva og kvifor
-Det 
+## kvifor?
+Innrolering i Windows Autopilot sikrar at datamaskinene kan administrerast sentralt gjennom Intune. Dette gjer det mogleg å automatisere installasjon.
 
 ## Korleis
 Underoppsettings prosessen til windows trykk "shift + f10"

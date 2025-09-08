@@ -1,4 +1,4 @@
-# Windows Hello For Business
+# Legg inn sefikat for SSL decryption
 &nbsp;
 ## Kva og kvifor
 Windows Hello for Business gir tryggare og meir brukervennleg pålogging ved å erstatte passord med PIN, biometri eller sikkerheitsnøkkel. Det styrkjer sikkerheita og gir betre brukaroppleving.

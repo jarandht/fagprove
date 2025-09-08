@@ -89,7 +89,7 @@ Sjå [feilsøking](../Feilsoking/Intune.md) for feilsøking.
  
 ### Oversikt
 
-1. [Opprette breakglass konto](../UtfortArbeid/Sky/Sikkerheitstiltak/SikringAvEigeDomene.md)
+1. [Opprette breakglass konto](../UtfortArbeid/Sky/Sikkerheitstiltak/Breakglass.md)
 1. [Conditional access: Phising resistant MFA](../UtfortArbeid/Sky/Sikkerheitstiltak/ConditionalAccess/PhishingResistantMFA.md) 
 1. [Conditional access: Kviteliste land og IP addrese](../UtfortArbeid/Sky/Sikkerheitstiltak/ConditionalAccess/KvitelisteLandOgIP.md) 
 1. [Conditional access: Compliant device](../UtfortArbeid/Sky/Sikkerheitstiltak/ConditionalAccess/CompliantDevice.md)

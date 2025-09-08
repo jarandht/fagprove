@@ -1,6 +1,6 @@
-## Default Deployment Profile | Properties
+# Utrullinga av einingar med autopilot
 &nbsp;
-## Kva og kvifor
+## kvifor
 
 Default Deployment Profile bestemmer korleis nye einingar blir konfigurert automatisk med Autopilot. Det gir ein standardisert, brukarvennleg oppstartsprosess, og sikrar at einingar vert klargjorde i tråd med organisasjonen sine krav – utan manuell innsats.
 

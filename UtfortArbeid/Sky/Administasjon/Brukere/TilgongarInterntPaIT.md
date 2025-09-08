@@ -36,8 +36,9 @@ Det blir oppretta følgene grupper og IT personel blir gitt dei tilogngane som p
 | **ACCESS - Global reader**| Global Reader| Full lesetilgang til tenester, utan endringsrett – nyttig for IT-leiarar  |
 | **ACCESS - Global admin**| Global Administrator| Full tilgang – bør berre brukast av få og gjerne med PIM  |
 
-* **I oppsettet er det berre oppretta "ACCESS - Helpdesk 1. linje" og "ACCESS - Global admin" då dei ande er berre unødvendig bruk av tid å legge inn.**
-* Det kan og soklart gjerast endringar for å tillpasse kva som trengst eller ikkje trengst i ein reel situasjon
+* **I oppsettet er det berre oppretta "ACCESS - Helpdesk 1. linje" og "ACCESS - Global admin". Sidan det er berre eg som jobbar i skymiljøet driv litt av alt heile tida**
+
+* Det kan gjerast endringar for å tillpasse kva som trengst eller ikkje trengst i ein reel situasjon
 
 ## PIM
 Eg har ikkje P2-lisensar, og dermed kan vi ikkje nytte Privileged Identity Management (PIM).

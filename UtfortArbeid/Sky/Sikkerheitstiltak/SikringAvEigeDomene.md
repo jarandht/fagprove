@@ -1,4 +1,4 @@
-# Legge inn eige domene i entra
+# Sikring av eige domene
 &nbsp;
 ## Kva og kvifor
 Her blir domenet sikra med SPF, DKIM og DMARC
