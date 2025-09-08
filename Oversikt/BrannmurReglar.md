@@ -1,8 +1,6 @@
 # Brannmur policies / reglar / NAT
 
 ## Info
-
-
 Dei som ikkje har fulført VG testen opplevde eg at snakka med mange forskjellige IP addresser eller bruker mange forskjellige portar. Og sidan brannmuren er veldig treg er det vanskeleg å utføre optimal netstengning av nettet i den korte tida som me har på fagprøven. De er lagt inn forbetringar som ahdde vå gjort på reglane om det hadde vert tid.
 
 ## Block

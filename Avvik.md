@@ -3,9 +3,11 @@
 ## Print
 * Printeroppsettet er ikkje gjort slik som det var ønska. 
     * Dette grunna dårleg og missledane dokumentasjon hjå legverandør.
+    * Meir info [her](UtfortArbeid/OnPrem/Print/Print.md)
 
 ## VG testen
 * Grunna treg brannmur og masse å gjere vart det vanskeleg å gjennomføre dette optimalt. Eg valge å ikkje bruke for mykje tid på dette då det innebær mykje prøving og feiling. 
+    * Meir info [her](Oversikt/BrannmurReglar.md)
 
 ## Fysisk netverk
 * Nettverket er ikkje satt opp slik det var beskreve løysinga
