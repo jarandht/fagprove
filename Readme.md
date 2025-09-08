@@ -3,6 +3,8 @@
 ## Teknisk dokumentasjon av løysing
 Uder [Resursar](Resursar) ligg diverse dokument og filer, ellers er det referert til eventuelle kildar i dei induiduelle dokumentasjons filene.
 
+[Oversiktsdokument](Oversikt)
+
 [Tekknisk dokumetasjon oversikt](Oversikt/Readme.md)
 
 ## Logg over utført arbeid
