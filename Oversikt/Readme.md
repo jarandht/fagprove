@@ -25,6 +25,7 @@ Her er det lagt inn alle konfigurasjonar som er gjor i kva systm.
 |----|---|---|---|
 | TAP | Temperary access pass | Entra ID | TAP gir brukeren en sikker og midlertidig måte å autentisere seg på, spesielt ved første gangs pålogging eller ved tap av vanlige metoder. |
 
+Overikt alle grupper [Grupper](Gruppeoversikt.md)
 
 ### Oversikt
 
@@ -32,7 +33,7 @@ Her er det lagt inn alle konfigurasjonar som er gjor i kva systm.
 1. [Oppsett av ny brukar](../UtfortArbeid/Sky/Administasjon/Brukere/NyeBrukarar.md)
 1. [Gi lærar tilgong til å administrere elevar](../UtfortArbeid/Sky/Administasjon/Brukere/LerarTilgong.md)
 1. [Tingongstyring internt hjå IT](../UtfortArbeid/Sky/Administasjon/Brukere/TilgongarInterntPaIT.md)
-1. [Tingongstyring internt hjå IT](../UtfortArbeid/Sky/Administasjon/Brukere/SetteBillingAccount.md)
+1. [Lisensadministrasjon](../UtfortArbeid/Sky/Administasjon/Brukere/SetteBillingAccount.md)
 
 &nbsp;
 ## Klientmaskin administrasjon ⌨️

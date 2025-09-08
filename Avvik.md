@@ -4,6 +4,9 @@
 * Printeroppsettet er ikkje gjort slik som det var ønska. 
     * Dette grunna dårleg og missledane dokumentasjon hjå legverandør.
 
+## VG testen
+* Grunna treg brannmur og masse å gjere vart det vanskeleg å gjennomføre dette optimalt. Eg valge å ikkje bruke for mykje tid på dette då det innebær mykje prøving og feiling. 
+
 ## Fysisk netverk
 * Nettverket er ikkje satt opp slik det var beskreve løysinga
     * Dette er då granna mangel på utstyr og at eg gløymde å nevne dette under planlegingsbiten
