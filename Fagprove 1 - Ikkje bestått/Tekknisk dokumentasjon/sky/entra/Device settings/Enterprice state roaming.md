@@ -1,0 +1,1 @@
+Users may sync settings and app data across devices: All

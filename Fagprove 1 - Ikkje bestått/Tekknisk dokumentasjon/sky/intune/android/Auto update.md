@@ -1,0 +1,1 @@
+Sjå Device Resticrions bilde 4

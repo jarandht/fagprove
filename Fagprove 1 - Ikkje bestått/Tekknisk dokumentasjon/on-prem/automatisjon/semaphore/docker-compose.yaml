@@ -1,0 +1,54 @@
+services:
+  mysql:
+    image: docker.io/library/mysql:8.4
+    hostname: mysql
+    container_name: semaphore-mysql
+    volumes:
+      - ./mysql:/var/lib/mysql
+    environment:
+      - MYSQL_RANDOM_ROOT_PASSWORD=yes
+      - MYSQL_DATABASE=semaphore
+      - MYSQL_USER=semaphore
+      - MYSQL_PASSWORD=${MYSQL_PASSWORD}
+    restart: always
+    networks:
+      - semaphore
+
+  semaphore:
+    container_name: semaphore
+    user: "0:0" # endre brukar til ikkje root i prod
+    image: docker.io/semaphoreui/semaphore:v2.14.10
+    ports:
+      - 443:3000
+    environment:
+      - SEMAPHORE_WEB_ROOT=https://semaphore.fagprove.jarand.site
+      - SEMAPHORE_DB_USER=semaphore
+      - SEMAPHORE_DB_PASS=${MYSQL_PASSWORD}
+      - SEMAPHORE_DB_HOST=mysql
+      - SEMAPHORE_DB_PORT=3306
+      - SEMAPHORE_DB_DIALECT=mysql
+      - SEMAPHORE_DB=semaphore
+      - SEMAPHORE_PLAYBOOK_PATH=/tmp/semaphore/
+      - SEMAPHORE_ADMIN_PASSWORD=${SEMAPHORE_ADMIN_PASSWORD}
+      - SEMAPHORE_ADMIN_NAME=admin
+      - SEMAPHORE_ADMIN_EMAIL=
+      - SEMAPHORE_ADMIN=admin
+      - SEMAPHORE_ACCESS_KEY_ENCRYPTION=${SEMAPHORE_ACCESS_KEY_ENCRYPTION}
+      - ANSIBLE_HOST_KEY_CHECKING=no
+      - TZ=Europe/Oslo
+      - SEMAPHORE_TLS_ENABLED=True
+      - SEMAPHORE_TLS_CERT_FILE=/certs/fullchain.pem
+      - SEMAPHORE_TLS_KEY_FILE=/certs/privkey.pem
+    volumes:
+      - ./inventory/:/inventory:ro
+      - ./authorized-keys/:/authorized-keys:ro
+      - ./config:/etc/semaphore:rw
+      - ./certs:/certs:ro
+    restart: always
+    depends_on:
+      - mysql
+    networks:
+      - semaphore
+
+networks:
+  semaphore:
